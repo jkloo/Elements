@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 
+
 public class PlatformerCharacter2D : MonoBehaviour 
 {
 	bool facingRight = true;							// For determining which way the player is currently facing.
@@ -86,5 +87,14 @@ public class PlatformerCharacter2D : MonoBehaviour
 		Vector3 theScale = transform.localScale;
 		theScale.x *= -1;
 		transform.localScale = theScale;
+	}
+
+	// Update is called once per frame
+	void OnTriggerEnter2D (Collider2D other)
+	{
+		if(other.tag == "Item")
+		{	
+			other.gameObject.SetActive(false);
+		}
 	}
 }
