@@ -1,9 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlatformerCharacter2D.cs">
     <Files>
-      <File FileName="Assets\Scripts\PlatformerCharacter2D.cs" Line="9" Column="41" />
+      <File FileName="Assets\Scripts\Pickup.cs" Line="11" Column="2" />
+      <File FileName="Assets\Scripts\PlatformerCharacter2D.cs" Line="2" Column="1" />
       <File FileName="Assets\Scripts\Platformer2DUserControl.cs" Line="10" Column="30" />
+      <File FileName="Assets\Scripts\Restarter.cs" Line="6" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

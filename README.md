@@ -1,6 +1,8 @@
 Elements
 ========
 
+![screen](Screenshot.png)
+
 # Production Plan
 
 1. v0.1 Game mechanics demo
